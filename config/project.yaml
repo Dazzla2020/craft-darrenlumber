@@ -1,0 +1,38 @@
+dateModified: 1580943517
+email:
+  fromEmail: darren.lumber@gmail.com
+  fromName: darrenlumber
+  transportType: craft\mail\transportadapters\Sendmail
+fieldGroups:
+  0005586a-55fb-40d9-8784-2487c1dbae26:
+    name: Common
+plugins:
+  element-api:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+siteGroups:
+  feaa5310-7079-4fa7-ae41-abfbe68df860:
+    name: darrenlumber
+sites:
+  05ac8bee-165b-4a60-a19e-f062cda5c005:
+    baseUrl: $DEFAULT_SITE_URL
+    handle: default
+    hasUrls: true
+    language: en-GB
+    name: 'Darren Lumber'
+    primary: true
+    siteGroup: feaa5310-7079-4fa7-ae41-abfbe68df860
+    sortOrder: 1
+system:
+  edition: solo
+  live: true
+  name: darrenlumber
+  schemaVersion: 3.4.7
+  timeZone: Europe/London
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: ''
+  photoVolumeUid: null
+  requireEmailVerification: true
